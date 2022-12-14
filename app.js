@@ -14,5 +14,5 @@ function setRandomColors() {
         console.log(columns)
     })
 }
-1
+
 setRandomColors()
