@@ -1,5 +1,12 @@
 const cols = document.querySelectorAll('.columns')
 
+document.addEventListener('keydown', (event) => {
+    if (event.code.toLowerCase() ==="space"){
+        setRandomColors()
+    }
+}
+)
+
 function setRandomColors() {
     cols.forEach(columns => {
         const text = columns.querySelector('h2')
